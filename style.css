@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "helioscond";
+    src: url(fonts\HeliosCond.otf);
+  }
+
+body {
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden;
+    font-family: 'helioscond', Fallback, sans-serif;   
+}
+h1 {
+    font-size: 52px!important;
+    color: white;
+}
+.main-img {
+    width: 1080px;
+    height: 1607px;
+}
+
+.main-button-1 {
+    height: 150px;
+    width: 350px;
+    cursor: pointer;  
+    opacity: 0.01;
+    background-color: black;
+    margin-top: -1000px;
+    margin-left: 20px;
+}
